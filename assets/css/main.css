@@ -3285,7 +3285,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 10% 10% 10% 10%;/*8rem 4rem 6rem 4rem ;*/
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3310,7 +3310,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 1vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3452,8 +3452,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				padding: 10% 10% 10% 10%;
+				min-height: 1vh;
 			}
 
 				#intro p br {
@@ -3469,8 +3469,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				padding: 10% 10% 10% 10%;
+				min-height: 1vh;
 			}
 
 				#intro h1 {
@@ -3489,6 +3489,7 @@ input, select, textarea {
 				}
 
 		}
+
 
 /* Header */
 
@@ -3710,7 +3711,7 @@ input, select, textarea {
 					-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-					display: block;
+					display: inline-block;
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
